@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(45deg, #FFD700, #FF4C4C);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+
+    
+    background-size: 50px 50px;
+    background-blend-mode: overlay;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent to blend with background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+}
+
+
+.box {
+    background: #FFA500; /* Bright Orange */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    color: #333333; /* Darker Text Color */
+}
+
+#joke-container {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333333; /* Darker Text Color */
+}
+@keyframes gradientAnimation {
+    0% { background-color: #FFD700; }
+    50% { background-color: #FF4C4C; }
+    100% { background-color: #FFD700; }
+}
+
+
