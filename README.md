@@ -1,5 +1,5 @@
 # Joke-generator
-Who said programmers are boring ....?
+Who said programmers are boring ......?
 
 ### Brief Description of the Web Page
 
